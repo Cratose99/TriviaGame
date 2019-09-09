@@ -62,7 +62,7 @@ function stop() {
     },
     {
       question:
-        "The blue Mario lookalike causing mischief in Super Mario Sunshine was actually...",
+        "Which shocking thing did Bowser Jr. say in Super Mario Sunshine?",
       answers: {
         a: "Princess Peach is his mom",
         b: "Toad is a spy for Bowser",
