@@ -1,0 +1,89 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+body{
+    background: url(../images/background.jpg);
+    background-size: 1580px 950px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+#img {
+    display: none;
+    height: 200px;
+    width: 200px;
+  }
+  
+#mainContent {
+    
+    background-color: #6B88FE;
+    text-align: center;
+    width: 60%;
+    border-image-slice:76 73 76 73 fill;border-image-width:20px 20px 20px 20px;
+    border-image-outset:0px 0px 0px 0px;
+    border-image-repeat:repeat repeat;
+    border-image-source:url(../images/mariob.png)
+}
+
+
+h1{
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 50px;
+  padding: 5%;
+  color: #fff;
+}
+.question{
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 10px;
+}
+button{
+    font-size: 22px;
+    background-color: grey;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: #E46111   ;
+}
+
+
+
+
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
