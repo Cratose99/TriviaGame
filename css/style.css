@@ -19,10 +19,10 @@ body{
   }
   
 #mainContent {
-    
+    padding: 1%;
     background-color: #6B88FE;
     text-align: center;
-    width: 60%;
+    width: 75%;
     border-image-slice:76 73 76 73 fill;border-image-width:20px 20px 20px 20px;
     border-image-outset:0px 0px 0px 0px;
     border-image-repeat:repeat repeat;
